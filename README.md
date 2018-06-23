@@ -1,12 +1,8 @@
 # Finding Lane Lines on the Road
 
----
-
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
-
----
 
 ## Reflection
 
@@ -14,10 +10,14 @@ The goals / steps of this project are the following:
 
 The dataset consists of 6 static images and 3 videos including white and yellow line markings.
 
+The files are located in:
+- https://github.com/michiroth/CarND-LaneLines-P1/tree/master/test_images
+- https://github.com/michiroth/CarND-LaneLines-P1/tree/master/test_videos
 
 ### Implementation
 
-For description and details of the functions look into P1.ipynb
+For description and details of the functions look into P1.ipynb:
+- https://github.com/michiroth/CarND-LaneLines-P1/blob/master/P1.ipynb
 
 Provided helper functions:
 - grayscale(img)
@@ -36,7 +36,6 @@ Own functions:
 
 Classes:
 - Config
-
 
 **My lane line detection pipeline consists of 7 main steps**
 
@@ -104,3 +103,8 @@ The black output image including hough lines from hough_lines method is then add
 **Steepness:** Adapt the ROI according to the driving scene and therefor incorporate steepness driving situations.
 
 **Implementation:** Use more Pythonic constructs within the draw_lines method. Evaluate the possibility to use a neural network (segnet) for line detections.
+
+### Output
+The lane line annotated images and videos can be found:
+- https://github.com/michiroth/CarND-LaneLines-P1/tree/master/test_images_out
+- https://github.com/michiroth/CarND-LaneLines-P1/tree/master/test_videos_output
