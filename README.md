@@ -108,3 +108,6 @@ The black output image including hough lines from hough_lines method is then add
 The lane line annotated images and videos can be found:
 - https://github.com/michiroth/CarND-LaneLines-P1/tree/master/test_images_out
 - https://github.com/michiroth/CarND-LaneLines-P1/tree/master/test_videos_output
+
+IPython HTML notebook is available here:
+- https://github.com/michiroth/CarND-LaneLines-P1/blob/master/P1-HTML.htm
